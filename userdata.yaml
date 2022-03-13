@@ -1,0 +1,44 @@
+# Camera reference (enter serial numbers for each)
+cam1:
+  serial: 20418140
+  ismaster: true
+  exposure: 3000
+  framerate: 60
+  bin: 2
+  nickname: topCam
+  reverseX: false
+  reverseY: false
+cam2:
+  serial: 20181766
+  ismaster: false
+  exposure: 3000
+  framerate: 60
+  bin: 2
+  nickname: sideCam
+  reverseX: false
+  reverseY: false
+
+# User information
+unitRef: unitR02
+raw_data_dir: /home/restrepo/Documents/RawDataLocal
+compressed_video_dir: /home/restrepo/Documents/RawDataLocal
+COM: none
+stepSize: 3
+leftVal: 625
+rightVal: 2490
+tonePair: false
+puffDur: 1000
+
+# ROI
+thresh_info:
+  roiXWYH:
+  - 0
+  - 50
+  - 167
+  - 98
+  axesRef: cam2
+
+droplet_info:
+  yVal: 0
+  axesRef: cam2
+
