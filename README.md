@@ -1,1 +1,1 @@
-# FLIR_osmiometer
+# FLIR_JLolfactometer
